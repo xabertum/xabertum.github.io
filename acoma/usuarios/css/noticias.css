@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+color: #777777;	
+	
+}
+
+#noticiasCont1 {
+	width: 200px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #ECE3D7;
+	color: #000;
+	float: left;
+	clear: left;
+	box-shadow: 0 0 4px black;
+	border-radius: 8px;
+}
+
+#galeriasCont > div:nth-child(1){
+	padding-top: 65px;
+	background-image: url(../images/ultimasNoticias.png);
+	background-repeat: no-repeat;
+	background-position: 42% 2%;
+}
+
+#textoNoticias {
+	font-size: small;
+	max-height: 15px;
+}
+
+#fechaNoticias {
+	position: relative;
+	top: -8px;
+}
+.colortexto2 { 
+	font-size: 16px;
+	color: #EEA640;
+}
+
+.colortexto3 {
+	font-size: 22px;
+	color: #EEA640;
+}
+
+#noticiasCont2 {
+	width: 675px;
+}
+
+#galeriasCont {
+	width: 975px;
+	margin:auto;
+
+}
+
+
+#galeriasCont > div#noticiasCont2 {
+	box-shadow: 0 0px 4px black;
+	overflow: auto;
+	padding-left: 25px;
+	padding-bottom: 28px;
+	margin-bottom: 15px;
+	background: #fff;
+	color: #000;
+	border-radius: 8px;
+}
+
+#galeriasCont2 > p:nth-child(3) { 
+	margin-left: 50px;
+
+
+}
+
+#galeriasCont > div img { 
+	height: 100px;
+	float: left;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+	margin-top: 10px;
+
+}
+
+#galeriasCont > div#noticiasCont2 > p {
+	margin-left: 130px;
+	margin-right: 20px;
+	color: #000;
+}
+
+#galeriasCont > div#noticiasCont2 > a {
+	margin-left: 30px;
+}
+
+
+.colortitulo, .colortexto {
+	color: #EEA640;
+
+}
+.titulocont2 {
+	color: #777777;
+	text-align: center;
+	padding-top: 35px;
+	font-size: 29px;
+}
+p.texto1cont2 {
+	color: #777777;
+	padding-top: 0px;
+	text-align: center;
+	padding-bottom: 25px;
+
+}
+
+#galeriasCont2 > p:nth-child(3) {
+	text-align: justify;
+	width: 768px;
+}
+
+#listadoFotos > div {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin: 4px;
+	width: 200px;	
+}
+
+#listadoFotos > div img {
+	height: 100px;
+
+	
+}
+#tituloFoto { 
+	margin-top: 218px;
+	margin-left: 0px;
+	margin-bottom: -5px;
+}
