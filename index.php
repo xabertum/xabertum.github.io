@@ -200,7 +200,7 @@ wp_reset_postdata();
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Web - ACOMA <i class="mdi-navigation-more-vert right"></i></span>
-                    <p><a href="http://xabertum.es/acoma">View Work</a></p>
+                    <p><a href="http://xabertum.github.io/acoma">View Work</a></p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Web - ACOMA <i class="mdi-navigation-close right"></i></span>

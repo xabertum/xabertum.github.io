@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 100%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-image: url("../images/background/1.4.1.1.jpg");
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0px;
+	background-repeat: repeat-y;	
+}
+
+
+
+/*only for webkit  browsers*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    body {
+		background-attachment: fixed;
+		background-size: auto;
+		-webkit-transform: translateZ(0);
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+
+}
+
+
+
+#articleMain {
+position: relative;
+	
+}
+
+/* ARTICLE Nº1 */
+
+#article1 {
+	height: 800px;;
+}
+
+.container1 {
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;	
+}
+
+#administrador {
+	color: #FFFFFF;
+	float: left;
+	position: relative;
+	left: 400px;
+	top: 40px;
+	font-size: large;
+	font-style: normal;
+	font-weight: 500;
+}
+
+#intro {
+	float: none;
+	top: -732px;
+	position: relative;
+}
+
+
+#mainasociados {
+	position: relative;
+	top: -1008px;
+	left: 343px;
+	cursor: pointer;
+}
+
+#mainlogout {
+	position: relative;
+	top: -1008px;
+	left: 580px;
+	cursor: pointer;
+}
+
+
+#mainactividades {
+	position: relative;
+	top: -1234px;
+	left: 346px;
+	cursor: pointer;
+}
+
+#mainservicios {
+	position: relative;
+	top: -1234px;
+	left: 124px;
+	cursor: pointer;
+}
+
+#mainlogin {
+	position: relative;
+	top: -1164px;
+	left: 429px;
+	cursor: pointer;
+}
+
+#maincontacto {
+	position: relative;
+	top: -1164px;
+	left: 439px;
+	cursor: pointer;
+}
+
+
+#hidden0 {
+	position: relative;
+	top: -755px;
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #828080;
+}
+#userbox, #contraseñabox {
+	display: inline-block;
+}
+
+
+/* ARTICLE Nº2 */
+
+#divisor0 {
+	position: relative;
+	top: -31px;
+
+
+}
+
+.container2 {
+	width: 1280px;
+	height: 850px;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-top: 31px;
+}
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+} 
+#ifrmCont2 {
+	border-style: none;
+	width: 1180px;
+	height: 700px;
+	padding-left: 50px;	
+}
+
+
+.titulocont2, .titulocont4, .titulocont6 {
+	color: #777777;
+	text-align: center;
+	padding-top: 55px;
+	font-size: 29px;
+}
+p.texto1cont2, p.texto1cont3 {
+	color: #777777;
+	padding-top: 0px;
+	text-align: center;
+}
+
+#texto2cont2 {
+	color: #777777;
+	position: relative;
+	padding-right: 0px;
+	left: 196px;
+	top: 60px;
+}
+
+.colortitulo, .colortexto {
+	color: #EEA640;
+
+}
+
+#leermas {
+	position: relative;
+	float: left;
+	left: 197px;
+	top: -241px;
+}
+
+
+
+
+#texto3cont2 {
+	text-align: center;
+	display: inline-block;
+
+}
+
+
+/* ARTICLE Nº3 */
+
+#divisor {
+	position: relative;
+	top: -27px;
+}
+
+.container3 {
+	width: 1280px;
+	height: 700px;
+	background-color: #eeeeee;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-top: 10px;
+}
+
+#ifrmCont3 {
+	border-style: none;
+	width: 1180px;
+	height: 700px;
+	padding-left: 50px;	
+}
+
+
+
+p.titulocont3 {
+	color: #eea640;
+	font-size: 29px;
+	text-align: center;
+	clear: both;
+}
+
+.actividadesimg {
+	transform: rotate(0deg);
+	transition: transform 1s;
+	position: relative;
+	top: 62px;
+	padding-right: 37px;
+}
+
+.actividadesimg:hover {
+	transform: rotate(360deg)	
+}
+
+/* ARTICLE Nº4 */
+
+#divisor2  {
+	position: relative;
+	top: -36px;
+
+
+}
+#ifrmCont4 {
+	border-style: none;
+	width: 1180px;
+	height: 750px;
+	padding-left: 50px;	
+}
+
+
+.container4 { 
+
+	width: 1280px;
+	height: 800px;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-top: 25px;
+
+}
+
+/* ARTICLE Nº5 */
+
+.container5 { 
+
+	width: 1280px;
+	height: 800px;
+	background-color: #eeeeee;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-top: 25px;
+
+}
+
+/* ARTICLE Nº6 */
+
+.container6 { 
+
+	width: 1280px;
+	height: 800px;
+	background-color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-top: 25px;
+
+}
+
+#divisor3  {
+	position: relative;
+	top: -36px;
+
+
+
