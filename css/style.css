@@ -575,14 +575,17 @@ xtype
 /* FOOTER */
 
 #socialIcons li {
-	display:inline;	
+	display:inline;
+    float: left;
 	
 } 
 #socialIcons li a { 
 	padding: .3em;
+    display: block;
 
 
 }
+
 
 a.colorText.popUp {
 	position: relative;
