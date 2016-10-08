@@ -586,7 +586,12 @@ xtype
 
 }
 
-
+#socialIcons li a img:hover {
+    color: black;
+    
+    
+    
+}
 a.colorText.popUp {
 	position: relative;
 	top: -5px;	
