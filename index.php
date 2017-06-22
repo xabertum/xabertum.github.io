@@ -75,59 +75,9 @@
     </div>
   </div>
 
- <div id="intro" class="section scrollspy">
-  <div class="container">
-      <!--   Icon Section   -->
-    <div class="row">
-          <div class="col s12">
-            <h2 class="center header text_h2">There are<span class="span_h2"> only 10 types </span>of people in the world: those who understand<span class="span_h2"> binary</span >, and those who don't.    </h2>
-          </div>
-
-</div></div></div>
+ </div></div>
  <div id="intro2" class="section scrollspy">
-  <div class="container valign-wrapper">
-
-    <div class="row">
-
-             <div class="col s6">
-			           <h2 class="header text_b"> Last Snippets </h2>
-
-              <div id="postsWP">
-<?php
-$args = array( 'posts_per_page' => 2, 'order'=> 'DESC', 'orderby' => 'date' );
-$postslist = get_posts( $args );
-foreach ( $postslist as $post ) :
-  setup_postdata( $post ); ?> 
-	<div>
-			<div class="tituloWP">
-		<?php the_date(); ?>
-			</div>
-		<br />
-		<div id="cardID" class="card">
-			<div class="tituloWP">
-				<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-			</div>
-		<?php the_category(); ?>   
-		<?php the_excerpt(); ?>
-				</div>
-
-	</div>
-<?php
-endforeach; 
-wp_reset_postdata();
-?>     
-
-</div></div>
-             <div class="col s6">
-	          <h2 class="header text_b">GitHub Activity </h2>
-			  <p>Plugin authored and maintained by Akshay Sharma.</p>
-             	<div class="gitHub">
-				</div>
-			 </div>
-
-      </div></div></div></div></div>
-
-  <div class="container valign-wrapper">
+   <div class="container valign-wrapper">
     <div class="row">
         <div  class="col s12 m4 l4">
           <div class="center promo promo-example">
