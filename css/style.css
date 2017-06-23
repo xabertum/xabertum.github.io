@@ -574,6 +574,11 @@ xtype
 
 /* FOOTER */
 
+footer {
+    border-top: 0.35px solid black;
+}
+
+
 #socialIcons li {
     display:inline;
     float: left;
@@ -610,12 +615,6 @@ a.colorText {
     color: #FFFFFF;
 
 }
-
-
-
-
-
-
 
 .footer-img {
     position: relative;
