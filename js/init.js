@@ -80,8 +80,6 @@ $(document).ready(function (){
 	} 
  	});
 
-
-
 	var contactIframe = $("#iframe1").contents();
 	
 	$(contactIframe).click(function(e) {

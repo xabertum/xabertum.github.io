@@ -19,14 +19,14 @@
 <div id="target" class="contact">
 	<h2>Get In Touch With Us</h2>
 	<p>Feel free to drop us a line and we’ll get back to you in 48 hours max!</p>
-	<form>
+	<form action="https://formspree.io/mohatar@yahoo.com" method="POST">
 		<h3>Your Name</h3>
-		<input type="text" class="user active" value="John Doe" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'example : John Doe';}">
+		<input type="text" name= "nombre" class="user active" value="John Doe" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'example : John Doe';}">
 		<h3>Your Email Address</h3>
-		<input type="text" class="email" value="office@example.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'example : office@example.com';}">
+		<input type="text" name ="emailAddress" class="email" value="office@example.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'example : office@example.com';}">
 		<h3>Your Message</h3>
-		<textarea class="i" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'I’d like to say “good job!”';}">I’d like to say “good job!”</textarea>
-		<input type="submit" value="Submit Your message" />
+		<textarea class="i" name="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'I’d like to say “good job!”';}">I’d like to say “good job!”</textarea>
+		<input type="submit" name = "send" value="Submit Your message" />
 	</form>
 </div>
 <!--contact page end here-->	
