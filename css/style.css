@@ -235,7 +235,7 @@ xtype
 }
 
 @media only screen and (min-width: 320px) and (max-width:400px) {
-    #xabertum {
+    .xabertum {
         margin: 2.5em;
 
     }
@@ -243,7 +243,7 @@ xtype
 
 
 @media only screen and (max-width: 400px) {
-    #xabertum {
+    .xabertum {
         padding: 4% 0;
         font-size: 0.75em;
         font-weight: 100;
