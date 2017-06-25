@@ -241,19 +241,11 @@ xtype
     }
 }
 
-@media only screen and (max-width: 566px) {
-    #xabertum {
-        padding: 4% 0;
-        font-size: 5em;
-        font-weight: 100;
-        color: white;
-    }
-}
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
     #xabertum {
         padding: 4% 0;
-        font-size: 3em;
+        font-size: 0.75em;
         font-weight: 100;
         color: white;
     }
