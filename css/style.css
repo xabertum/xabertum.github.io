@@ -234,14 +234,6 @@ xtype
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width:400px) {
-    .xabertum {
-        margin: 2.5em;
-
-    }
-}
-
-
 @media only screen and (max-width: 400px) {
     .xabertum {
         padding: 4% 0;
