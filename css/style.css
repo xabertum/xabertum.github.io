@@ -249,6 +249,11 @@ xtype
 
 /*Xabertum's CSS */
 
+#top > div.container.valign-wrapper > div > div:nth-child(1) > a > div {
+    margin-top: 44px;
+    color: black;
+}
+
 #imgBio {
     /*float: left;*/
     margin-top: 40px;
