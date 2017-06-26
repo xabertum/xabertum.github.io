@@ -286,6 +286,11 @@ xtype
     background-color: #B8B89F;
 }
 
+#work > div > h2 {
+    font-size: 2rem;
+}
+
+
 /* CONTACT POP-UP */
 
 .modalDialog {
