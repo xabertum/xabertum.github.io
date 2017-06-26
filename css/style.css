@@ -596,8 +596,8 @@ footer {
 
 
 #socialIcons li {
-    display:inline;
-    float: left;
+    display:inline-block;
+    
 
 } 
 #socialIcons li a { 
