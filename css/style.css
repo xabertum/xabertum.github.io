@@ -251,6 +251,7 @@ xtype
 
 #imgBio {
     /*float: left;*/
+    margin-top: 65px;
 }
 
 #textBio {
