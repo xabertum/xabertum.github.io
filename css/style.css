@@ -254,9 +254,13 @@ xtype
     color: black;
 }
 
+#top > div.container.valign-wrapper > div > div:nth-child(3) > div {
+    margin-top: 44px;
+}
+
 #imgBio {
     /*float: left;*/
-    margin-top: 40px;
+    margin-top: 37px;
 }
 
 #textBio {
