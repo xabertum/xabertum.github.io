@@ -6634,7 +6634,7 @@ ul.table-of-contents a {
     height: 100%;
     height: calc(100% + 60px);
     padding-bottom: 60px;
-    background-color: #000;
+    background-color: #0089ec;
     z-index: 999;
     will-change: left; }
     ul.side-nav.right-aligned {
