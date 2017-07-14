@@ -1,272 +1,289 @@
 <?php require('blog/wp-blog-header.php');?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/icon"/>
-        <title>xabertum.github.io</title>
 
-        <!-- CSS  -->
-        <link href="css/materialize.css" type="text/css" rel="stylesheet">
-        <link href="css/style.css" type="text/css" rel="stylesheet" >
-        
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/icon" />
+    <title>xabertum.github.io</title>
 
-        <!-- GITHUB embed  -->
-        <link rel='stylesheet' href='css/github.css'/>
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-        <script type="text/javascript" src="js/underscore-min.js"></script>
-        <script type="text/javascript" src='js/github.js'></script>
+    <!-- GITHUB embed  -->
+    <link rel='stylesheet' href='css/github.css' />
 
 
-        <!-- Modernizr -->
-        <script src="js/modernizr.js"></script> 
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src='js/github.js'></script>
 
 
-    </head>
-    <body id="top" class="scrollspy">
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
 
-        <div id="openModal" class="modalDialog">
-            <div id="contactPopup" class="contact">
-                <iframe class="contact" src="contact.html" id="iframe1" marginheight="0" frameborder="0" onLoad="autoResize('iframe1');"></iframe>	
-            </div>
+
+</head>
+
+<body id="top" class="scrollspy">
+
+    <div id="openModal" class="modalDialog">
+        <div id="contactPopup" class="contact">
+            <iframe class="contact" src="contact.html" id="iframe1" marginheight="0" frameborder="0" onLoad="autoResize('iframe1');"></iframe>
         </div>
+    </div>
 
-        <div id="openModal2" class="modalDialog2">
-            <div id="contactPopup" class="contact">
-                <iframe class="contact"  frameborder="0" src="googleMaps.html" seamless height="320" width="480"></iframe>
-            </div>
+    <div id="openModal2" class="modalDialog2">
+        <div id="contactPopup" class="contact">
+            <iframe class="contact" frameborder="0" src="googleMaps.html" seamless height="320" width="480"></iframe>
         </div>
+    </div>
 
 
-        <!-- Pre Loader -->
-        <div id="loader-wrapper">
-            <div id="loader"></div>
+    <!-- Pre Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
 
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
 
-        </div>
+    </div>
 
-        <div class="navbar-fixed">
-            <nav id="nav_f" class="default_color" role="navigation">
-                <div class="container">
-                    <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo"><span class="xabertum">{</span> <span class="xabertum">xabertum</span> <span class="xabertum">}</span></a>
-                        <ul id="nav-mobile" class="right side-nav">
-
-                            <li><a href="#work">Works</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-
-                    </div>
-                </div>
-            </nav>
-        </div>
-
-        <div class="section no-pad-bot" id="index-banner">
+    <div class="navbar-fixed">
+        <nav id="nav_f" class="default_color" role="navigation">
             <div class="container">
-                <h1 class="text_h center header cd-headline letters type">
-                    <span>My favourite programming language is</span> 
-                    <span class="cd-words-wrapper waiting">
+                <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo"><span class="xabertum">{</span> <span class="xabertum">xabertum</span> <span class="xabertum">}</span></a>
+                    <ul id="nav-mobile" class="right side-nav">
+
+                        <li><a href="#work">Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <span>My favourite programming language is</span>
+                <span class="cd-words-wrapper waiting">
                         <b class="is-visible">PHP</b>
                         <b>JavaScript</b>
                         <b>Python</b>
                     </span>
-                </h1>
+            </h1>
+        </div>
+    </div>
+
+    <div class="container valign-wrapper">
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <a class="popUp" href="#1">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">message</i>
+                        <h5 class="promo-caption">Send me an email</h5>
+                        <p class="center">We did most of the heavy lifting for you to provide a easy way to contact me. Feel free to get in touch!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <img src="img/DSC_0055_80.jpg" alt="" width="105" height="105" class="circle responsive-img" id="imgBio">
+                    <h5 class="promo-caption">Mini-Bio</h5>
+                    <p class="center">I'm Javier Delgado, a committed and enthusiastic career-changer who is studying web programming as full time job. </p>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="material-icons ">school</i>
+                    <h5 class="promo-caption">Academic Report</h5>
+                    <p class="center">Higher Technician in Web Applications Development. (Equivalent to UK HND or EU CINE-5b)</p>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="container valign-wrapper">
+    <div class="section scrollspy" id="work">
+        <div class="container">
+            <h2 class="header text_b">LastWorks.find()</h2>
             <div class="row">
-                <div  class="col s12 m4 l4">
-                    <a class="popUp" href="#1">
-                        <div class="center promo promo-example">
-                            <i class="material-icons">message</i>                        
-                            <h5 class="promo-caption">Send me an email</h5>
-                            <p class="center">We did most of the heavy lifting for you to provide a easy way to contact me. Feel free to get in touch!</p>
-                        </div>
-                    </a>
-                </div>
                 <div class="col s12 m4 l4">
-                    <div class="center promo promo-example">
-                        <img src="img/avatar.png" alt="" width="105" height="105" class="circle responsive-img" id="imgBio">
-                        <h5 class="promo-caption">Mini-Bio</h5>
-                        <p class="center">I'm Javier Delgado, a committed and enthusiastic career-changer who is studying web programming as full time job. </p>
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <a class="imgOnCard" href="https://play.google.com/store/apps/details?id=es.xabertum.weatheron"><img class="imgOnCard" src="img/google-play-icon.png" alt="" /></a>
+                            <img class="activator" src="img/3.1.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">App - WeatherOn <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a href="https://play.google.com/store/apps/details?id=es.xabertum.weatheron">Link to Google Play</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">WeaherOn <i class="mdi-navigation-close right"></i></span>
+                            <p>Accurate, simple & fast local weather forecast app. Powered by The Dark Sky Forecast API.</p>
+                            <center>
+                                <a href="https://play.google.com/store/apps/details?id=es.xabertum.weatheron"><img class="responsive-img" src="img/google-play-icon.png" width="245" alt="" /></a>
+                            </center>
+                        </div>
                     </div>
                 </div>
+
                 <div class="col s12 m4 l4">
-                    <div class="center promo promo-example">
-                        <i class="material-icons ">school</i>
-                        <h5 class="promo-caption">Lorem Ipsum</h5>
-                        <p class="center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/3.1.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">App - Chat Client Bot <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a href="apk/xabertum.example.ChatClientBotStartUp.rar" download>Download .apk</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Chat Client Bot<i class="mdi-navigation-close right"></i></span>
+                            <p>Little Chat Client Bot, that is always in good mood. Exercise from an edX MOOC.</p>
+                            <a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>Github Repo</a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/04.1.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Web - ACOMA <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a href="http://xabertum.github.io/acoma">View Work</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Web - ACOMA <i class="mdi-navigation-close right"></i></span>
+                            <p>Web of an imaginary association. It has a MySql Data Base to personalize pages for different users.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
-
-        <div class="section scrollspy" id="work">
-            <div class="container">
-                <h2 class="header text_b">LastWorks.find()</h2>
-                <div class="row">
-                    <div class="col s12 m4 l4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <a class="imgOnCard" href="https://play.google.com/store/apps/details?id=es.xabertum.weatheron"><img class="imgOnCard" src="img/google-play-icon.png" alt=""/></a>
-                                <img class="activator" src="img/3.1.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">App - WeatherOn <i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a href="https://play.google.com/store/apps/details?id=es.xabertum.weatheron">Link to Google Play</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">WeaherOn <i class="mdi-navigation-close right"></i></span>
-                                <p>Accurate, simple & fast local weather forecast app. Powered by The Dark Sky Forecast API.</p>
-                                <center><a href="https://play.google.com/store/apps/details?id=es.xabertum.weatheron"><img class="responsive-img"src="img/google-play-icon.png" width="245" alt=""/></a></center>
-                            </div>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/4.2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">WEB - ACIB <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a href="http://xabertum.github.io/acoma0">VIEW WORK</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Ups, no comment.<i class="mdi-navigation-close right"></i></span>
+                            <p></p>
                         </div>
                     </div>
-
-                    <div class="col s12 m4 l4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="img/3.1.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">App - Chat Client Bot <i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a href="apk/xabertum.example.ChatClientBotStartUp.rar" download>Download .apk</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Chat Client Bot<i class="mdi-navigation-close right"></i></span>
-                                <p>Little Chat Client Bot, that is always in good mood. Exercise from an edX MOOC.</p>
-                                <a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>Github Repo</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col s12 m4 l4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator"  src="img/04.1.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Web - ACOMA <i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a href="http://xabertum.github.io/acoma">View Work</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Web - ACOMA <i class="mdi-navigation-close right"></i></span>
-                                <p>Web of an imaginary association. It has a MySql Data Base to personalize pages for different users.</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-                <div class="row">
-                    <div class="col s12 m4 l4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="img/4.2.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">WEB - ACIB <i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a href="http://xabertum.github.io/acoma0">VIEW WORK</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Ups, no comment.<i class="mdi-navigation-close right"></i></span>
-                                <p></p>
-                            </div>
+
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/UnderContruction_2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Coming Soon<i class="mdi-navigation-more-vert right"></i></span>
+                            <p>
+                                <a href="#"></a>
+                            </p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Coming Soon <i class="mdi-navigation-close right"></i></span>
+                            <p>Coming Soon.</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col s12 m4 l4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator"  src="img/UnderContruction_2.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Coming Soon<i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a href="#"></a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Coming Soon <i class="mdi-navigation-close right"></i></span>
-                                <p>Coming Soon.</p>
-                            </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/UnderContruction_2.jpg">
                         </div>
-                    </div>
-
-                    <div class="col s12 m4 l4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator"  src="img/UnderContruction_2.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Coming Soon<i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a  href="#"></a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Coming Soon <i class="mdi-navigation-close right"></i></span>
-                                <p>Coming Soon.</p>
-                                <a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>button</a>
-                            </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Coming Soon<i class="mdi-navigation-more-vert right"></i></span>
+                            <p>
+                                <a href="#"></a>
+                            </p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Coming Soon <i class="mdi-navigation-close right"></i></span>
+                            <p>Coming Soon.</p>
+                            <a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>button</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- FOOTER -->
-        <div class = "row center">
-            <div class="col s12 colorBackground">
-                <img src="img/Skyline1.png" alt="" class = "responsive-img footer-img">
+    <!-- FOOTER -->
+    <div class="row center">
+        <div class="col s12 colorBackground">
+            <img src="img/Skyline1.png" alt="" class="responsive-img footer-img">
+        </div>
+    </div>
+
+    <footer id="contact" class="page-footer default_color scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <ul id="socialIcons" class="center">
+                        <li>
+                            <a class="white-text" href="https://github.com/xabertum"><img id="github" src="img/github100.png" width="30" height="29" alt="" /></a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="https://twitter.com/xabertum"><img id="twitter" src="img/twitter100.png" width="30" height="30" alt="" /></a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="https://plus.google.com/102691326819028507880/posts"><img id="google" src="img/google+100.png" width="30" height="30" alt="" /></a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="https://www.linkedin.com/in/xabertum"><img id="linkedin" src="img/linkedin100.png" width="30" height="30" alt="" /></a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
         </div>
-
-        <footer id="contact" class="page-footer default_color scrollspy">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12">
-                        <ul id="socialIcons" class = "center">
-                            <li><a class="white-text" href="https://github.com/xabertum"><img id="github" src="img/github100.png" width="30" height="29" alt=""/></a></li>
-                            <li><a class="white-text" href="https://twitter.com/xabertum"><img id="twitter" src="img/twitter100.png" width="30" height="30" alt=""/></a></li>
-                            <li><a class="white-text" href="https://plus.google.com/102691326819028507880/posts"><img id="google" src="img/google+100.png" width="30" height="30" alt=""/></a></li>
-                            <li><a class="white-text" href="https://www.linkedin.com/in/xabertum"><img id="linkedin" src="img/linkedin100.png" width="30" height="30" alt=""/></a></li>
-
-                        </ul>
-                    </div>
-                </div>
+        <div class="footer-copyright default_color">
+            <div class="container center">
+                © 2017 - developed by <a class="white-text" href="#">xabertum</a>
             </div>
-            <div class="footer-copyright default_color">
-                <div class="container center">
-                    © 2017 - developed by <a class="white-text" href="#">xabertum</a>
-                </div>
-            </div>
-        </footer>
+        </div>
+    </footer>
 
-        <!--  Scripts-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
+    <!--  Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
 
 
-        <script>
-                    (function (i, s, o, g, r, a, m) {
-                        i['GoogleAnalyticsObject'] = r;
-                        i[r] = i[r] || function () {
-                            (i[r].q = i[r].q || []).push(arguments)
-                        }, i[r].l = 1 * new Date();
-                        a = s.createElement(o),
-                                m = s.getElementsByTagName(o)[0];
-                        a.async = 1;
-                        a.src = g;
-                        m.parentNode.insertBefore(a, m)
-                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-                    ga('create', 'UA-58943080-3', 'auto');
-                    ga('send', 'pageview');
+        ga('create', 'UA-58943080-3', 'auto');
+        ga('send', 'pageview');
 
-        </script>
+    </script>
 
-    </body>
+</body>
+
 </html>
