@@ -249,6 +249,10 @@ xtype
 
 /*Xabertum's CSS */
 
+#imgOnCard-app {
+    margin-top: 15%;
+}
+
 #top > div.container.valign-wrapper > div > div:nth-child(1) > a > div {
     margin-top: 44px;
     color: black;
