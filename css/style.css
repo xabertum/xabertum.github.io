@@ -16,6 +16,10 @@
     padding: 0 15px;
 }
 
+#weather-icon {
+    padding-top: 15%;
+}
+
 #intro{padding-top: 4rem;}
 
 #work{padding-top: 4rem;padding-bottom: 4rem;}
