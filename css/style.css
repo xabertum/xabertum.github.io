@@ -1,4 +1,5 @@
 /* Custom Stylesheet */
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -8,9 +9,13 @@
  * Codyhouse.co
  */
 
-.default_color{background-color: #2196F3 !important}
+.default_color {
+    background-color: #2196F3 !important
+}
 
-.default_color_text{color: #ee6e73 !important}
+.default_color_text {
+    color: #ee6e73 !important
+}
 
 .icon-block {
     padding: 0 15px;
@@ -20,9 +25,14 @@
     padding-top: 15%;
 }
 
-#intro{padding-top: 4rem;}
+#intro {
+    padding-top: 4rem;
+}
 
-#work{padding-top: 4rem;padding-bottom: 4rem;}
+#work {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
 #index-banner {
     min-height: 632px;
@@ -31,19 +41,19 @@
     background-color: #2196F3;
 }
 
-#nav_f{
-    box-shadow: none !important; 
-    -webkit-box-shadow:none !important;
+#nav_f {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
 }
 
 .text_h {
     padding: 15% 0;
     font-size: 6.0em;
     font-weight: 100;
-    color:white;
+    color: white;
 }
 
-.brand-logo{
+.brand-logo {
     position: absolute;
     color: #fff;
     display: inline-block;
@@ -54,29 +64,47 @@
     letter-spacing: 7px;
 }
 
-.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+.text_h2 {
+    font-weight: 100;
+    margin-bottom: 4%;
+    line-height: 4.5rem;
+}
 
 .span_h2 {
     font-weight: 300;
     color: #EE6E73;
 }
 
-.text_b{color: #2196F3;}
+.text_b {
+    color: #2196F3;
+}
 
-.in{font-weight: 400 !important; font-style: normal !important;}
+.in {
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
 
 .promo i {
     color: #2196F3;
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #2196F3;}
 
-.card-content a:hover {color: #ee6e73;}
+.card-content a {
+    color: #2196F3;
+}
 
-#work{background: #E8EAF6;}
+.card-content a:hover {
+    color: #ee6e73;
+}
 
-.text_pink{color:#EF9A9A;}
+#work {
+    background: #E8EAF6;
+}
+
+.text_pink {
+    color: #EF9A9A;
+}
 
 nav ul a {
     font-size: 1.2rem;
@@ -92,10 +120,12 @@ nav ul a {
 xtype 
 
 -------------------------------- */
+
 .cd-headline.type .cd-words-wrapper {
     vertical-align: top;
     overflow: hidden;
 }
+
 .cd-headline.type .cd-words-wrapper::after {
     /* vertical bar */
     content: '';
@@ -112,30 +142,38 @@ xtype
     width: 1px;
     background-color: #aebcb9;
 }
+
 .cd-headline.type .cd-words-wrapper.waiting::after {
     -webkit-animation: cd-pulse 1s infinite;
     -moz-animation: cd-pulse 1s infinite;
     animation: cd-pulse 1s infinite;
 }
+
 .cd-headline.type .cd-words-wrapper.selected {
     background-color: #FFF;
 }
+
 .cd-headline.type .cd-words-wrapper.selected::after {
     visibility: hidden;
 }
+
 .cd-headline.type .cd-words-wrapper.selected b {
     color: #ee6e73;
 }
+
 .cd-headline.type b {
     visibility: hidden;
 }
+
 .cd-headline.type b.is-visible {
     visibility: visible;
 }
+
 .cd-headline.type i {
     position: absolute;
     visibility: hidden;
 }
+
 .cd-headline.type i.in {
     position: relative;
     visibility: visible;
@@ -155,6 +193,7 @@ xtype
         opacity: 0;
     }
 }
+
 @-moz-keyframes cd-pulse {
     0% {
         -moz-transform: translateY(-50%) scale(1);
@@ -169,6 +208,7 @@ xtype
         opacity: 0;
     }
 }
+
 @keyframes cd-pulse {
     0% {
         -webkit-transform: translateY(-50%) scale(1);
@@ -198,26 +238,33 @@ xtype
 
 
 /* Preloader */
+
 #preloader {
     position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#fff; /* change if the mask should have another color then white */
-    z-index:1200; /* makes sure it stays on top */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    z-index: 1200;
+    /* makes sure it stays on top */
 }
 
 #status {
-    width:200px;
-    height:200px;
-    position:absolute;
-    left:50%; /* centers the loading animation horizontally one the screen */
-    top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../img/status.gif); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    background-image: url(../img/status.gif);
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    /* is width and height divided by two */
 }
 
 @media only screen and (max-width: 566px) {
@@ -275,11 +322,12 @@ xtype
     padding-left: 120px;
     padding-right: 30px;
 }
+
 .colorText {
     color: rgba(255, 255, 255, 0.8);
 }
 
-#intro > div > div > div > h2 { 
+#intro > div > div > div > h2 {
     font-size: 3.56rem;
 }
 
@@ -290,6 +338,7 @@ xtype
     z-index: 99;
     width: 55%;
 }
+
 #content {
     background-color: #B8B89F;
 }
@@ -308,13 +357,13 @@ xtype
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 99999;
-    opacity:0;
+    opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
-    pointer-events:none; 
+    pointer-events: none;
 
 }
 
@@ -338,13 +387,13 @@ xtype
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 99999;
-    opacity:0;
+    opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
-    pointer-events:none; 
+    pointer-events: none;
 
 }
 
@@ -362,7 +411,8 @@ xtype
 
 
 /*--meadia quiries start here--*/
-@media(max-width:1440px){
+
+@media(max-width:1440px) {
     .contact {
         width: 40%;
     }
@@ -373,7 +423,8 @@ xtype
         margin: 20vh auto;
     }
 }
-@media(max-width:1366px){
+
+@media(max-width:1366px) {
     .contact {
         width: 43%;
     }
@@ -384,7 +435,8 @@ xtype
         margin: 20vh auto;
     }
 }
-@media(max-width:1280px){
+
+@media(max-width:1280px) {
     .contact {
         width: 45%;
     }
@@ -393,10 +445,10 @@ xtype
     }
     .modalDialog2 > div {
         margin: 20vh auto;
-    }	
+    }
 }
 
-@media(max-width:1024px){
+@media(max-width:1024px) {
     .contact {
         width: 56%;
     }
@@ -407,7 +459,8 @@ xtype
         padding: 100px 0px 0px 0px;
     }
 }
-@media(max-width:992px){
+
+@media(max-width:992px) {
     .modalDialog > div {
         margin: 20vh auto;
     }
@@ -416,7 +469,7 @@ xtype
     }
 }
 
-@media(max-width:768px){
+@media(max-width:768px) {
     .modalDialog > div {
         margin: 20vh auto;
     }
@@ -442,7 +495,8 @@ xtype
         font-size: 13px;
     }
 }
-@media(max-width:640px){
+
+@media(max-width:640px) {
     .modalDialog > div {
         margin: 20vh auto;
     }
@@ -468,9 +522,11 @@ xtype
 
     .row .col.s6 {
         width: 100%;
-        margin-left: 0; }
+        margin-left: 0;
+    }
 }
-@media(max-width:480px){
+
+@media(max-width:480px) {
     .modalDialog > div {
         margin: 20vh auto;
     }
@@ -481,7 +537,7 @@ xtype
         font-size: 22px;
     }
     .contact p {
-        font-size: 9.5px;	
+        font-size: 9.5px;
     }
     .contact form {
         padding: 10px 0px 0px 0px;
@@ -503,9 +559,9 @@ xtype
         margin: 0px 0px 20px 0px;
     }
 
-    @media(max-width:375px){
-        #textBio { 
-            padding-right: 0px;	
+    @media(max-width:375px) {
+        #textBio {
+            padding-right: 0px;
 
         }
         .modalDialog > div {
@@ -516,11 +572,11 @@ xtype
         }
     }
 
-    @media(max-width:320px){
+    @media(max-width:320px) {
         .contact h2 {
             font-size: 20px;
         }
-        #textBio { 
+        #textBio {
             padding-right: 0px;
 
         }
@@ -532,7 +588,7 @@ xtype
             margin: 20vh auto;
         }
         .contact {
-            padding: 20px 15px 30px 15px;	
+            padding: 20px 15px 30px 15px;
             width: 85%;
         }
         .contact input[type="text"] {
@@ -564,7 +620,7 @@ xtype
         .copyright p {
             font-size: 12px;
         }
-        .copyright p a{
+        .copyright p a {
             font-size: 12px;
         }
         .copyright {
@@ -581,17 +637,16 @@ xtype
         }
     }
 
-    @media(min-width:993px){
-        #contact > div.container > div > div:nth-child(3) { 
+    @media(min-width:993px) {
+        #contact > div.container > div > div:nth-child(3) {
             padding-left: 75px;
 
 
         }
     }
-    @media (max-width:1200px) and (min-width:993px){
+    @media (max-width:1200px) and (min-width:993px) {
         div.col.s6 {
             padding-right: 5.5rem
-
         }
 
     }
@@ -599,7 +654,6 @@ xtype
 }
 
 /*--meadia quiries end here--*/
-
 
 /* FOOTER */
 
@@ -609,11 +663,12 @@ footer {
 
 
 #socialIcons li {
-    display:inline-block;
-    
+    display: inline-block;
 
-} 
-#socialIcons li a { 
+
+}
+
+#socialIcons li a {
     padding: .3em;
     display: block;
 
@@ -626,15 +681,16 @@ footer {
 
 
 }
+
 a.colorText.popUp {
     position: relative;
-    top: -5px;	
+    top: -5px;
 
 }
 
 a.colorText.popUp2 {
     position: relative;
-    top: -5px;	
+    top: -5px;
 
 }
 
@@ -649,10 +705,9 @@ a.colorText {
     position: relative;
     margin: -8px auto;
 }
+
 .colorBackground {
     background-color: #E8EAF6;
     margin-bottom: -20px;
-    
+
 }
-
-
