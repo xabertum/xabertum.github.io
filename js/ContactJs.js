@@ -10,7 +10,7 @@ $(document).ready(function () {
 				'opacity': '0',
 				'pointer-events': 'none'
 			});
-		} else if ($("#contactPopup").click()) {
+		} else if ($(".contact").click()) {
 
 			$('.modalDialog', window.parent.document).css({
 				'opacity': '1',
