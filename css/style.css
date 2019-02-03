@@ -2907,6 +2907,10 @@ img.svg {
 /*	14) ARLO MOBILE HEADER
 /*---------------------------------------------------*/
 
+.logo {
+	color: white;
+}
+
 .arlo_tm_mobile_header_wrap {
 	width: 100%;
 	height: auto;
