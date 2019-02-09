@@ -19,7 +19,8 @@
 	12) ARLO RIPPLE HOMEPAGE
 	13) ARLO PORTFOLIO SINGLE
 	14) ARLO MOBILE HEADER
-    15) ARLO MEDIA QUERIES (FOR SMALL DEVICES)
+	15) ARLO MEDIA QUERIES (FOR SMALL DEVICES)
+	16) CUSTOM STYLES
 
 
 /*---------------------------------------------------*/
@@ -3339,4 +3340,12 @@ img.svg {
 	.arlo_tm_counter_wrap {
 		padding: 94px 0px 48px 0px;
 	}
+}
+
+/*---------------------------------------------------*/
+/*	16) CUSTOM STYLES
+/*---------------------------------------------------*/
+
+#logo-link {
+	text-decoration: none;
 }
