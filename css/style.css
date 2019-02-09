@@ -3348,4 +3348,18 @@ img.svg {
 
 #logo-link {
 	text-decoration: none;
+	color: white;
+	font-weight: 500;
+}
+#logo-link:hover {
+	animation-name: logo-transition;
+	animation-duration: 300ms;
+	animation-fill-mode: forwards;
+	
+}
+
+@keyframes logo-transition {
+	100% {
+		color: #E3872D;		
+	}
 }
