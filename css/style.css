@@ -2529,7 +2529,7 @@ img.svg {
 	outline: none;
 }
 
-.arlo_tm_contact_wrap .arlo_tm_button a {
+.arlo_tm_contact_wrap .arlo_tm_button button {
 	text-decoration: none;
 	color: #fff;
 	background-color: #E3872D;
@@ -2542,7 +2542,7 @@ img.svg {
 	overflow: hidden;
 }
 
-.arlo_tm_contact_wrap .arlo_tm_button a:before {
+.arlo_tm_contact_wrap .arlo_tm_button button:before {
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -2555,11 +2555,11 @@ img.svg {
 	z-index: 1;
 }
 
-.arlo_tm_contact_wrap .arlo_tm_button a:hover:before {
+.arlo_tm_contact_wrap .arlo_tm_button button:hover:before {
 	width: 170%;
 }
 
-.arlo_tm_contact_wrap .arlo_tm_button a span {
+.arlo_tm_contact_wrap .arlo_tm_button button {
 	position: relative;
 	z-index: 2;
 }
