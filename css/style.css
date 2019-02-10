@@ -2559,7 +2559,8 @@ img.svg {
 	width: 170%;
 }
 
-.arlo_tm_contact_wrap .arlo_tm_button button {
+.arlo_tm_contact_wrap .arlo_tm_button button * {
+	border: none;
 	position: relative;
 	z-index: 2;
 }
