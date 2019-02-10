@@ -3356,11 +3356,13 @@ img.svg {
 	animation-name: logo-transition;
 	animation-duration: 300ms;
 	animation-fill-mode: forwards;
+	
 }
 
 @keyframes logo-transition {
 	100% {
 		color: #E3872D;
+		transition: all .3s ease;
 	}
 }
 
