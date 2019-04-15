@@ -3347,13 +3347,13 @@ img.svg {
 /*	16) CUSTOM STYLES
 /*---------------------------------------------------*/
 
-#logo-link {
+.logo-link {
 	text-decoration: none;
 	color: white;
 	font-weight: 500;
 }
 
-#logo-link:hover {
+.logo-link:hover {
 	animation-name: logo-transition;
 	animation-duration: 300ms;
 	animation-fill-mode: forwards;
