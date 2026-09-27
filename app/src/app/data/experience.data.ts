@@ -178,4 +178,5 @@ export const CERTIFICATIONS = [
   'AngularJS práctico',
   'Consumir APIs externas en Angular',
   'Illustrator para diseño web',
+  'Certificado de Enseñanza Abierta en Abstracción y simbolismo en el arte prehistórico (UNED)',
 ];
