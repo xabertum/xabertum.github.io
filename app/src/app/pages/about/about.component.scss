@@ -54,6 +54,22 @@
   }
 }
 
+.has-multiple-roles .timeline-roles > li {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 7px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--bg);
+  }
+}
+
 .role-heading {
   display: flex;
   justify-content: space-between;
