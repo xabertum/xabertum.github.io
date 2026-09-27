@@ -1,0 +1,94 @@
+<section class="section about-hero">
+  <div class="container about-hero-inner">
+    <div>
+      <p class="eyebrow">Sobre mí</p>
+      <h1 class="section-title">Javier Delgado Mohatar</h1>
+      <p class="section-lead">{{ summary }}</p>
+      <a class="btn btn-primary" href="cv/CV-Javier-Delgado.pdf" download>Descargar CV</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Trayectoria</p>
+    <h2 class="section-title">Experiencia profesional</h2>
+
+    <ol class="timeline">
+      @for (entry of experience; track entry.company) {
+        <li class="timeline-item">
+          <div class="timeline-header">
+            <h3>{{ entry.company }}</h3>
+            <span class="timeline-total">{{ entry.totalPeriod }}</span>
+          </div>
+          <ul class="timeline-roles">
+            @for (role of entry.roles; track role.period) {
+              <li>
+                <div class="role-heading">
+                  <strong>{{ role.title }}</strong>
+                  <span>{{ role.period }}</span>
+                </div>
+                @if (role.location) {
+                  <p class="role-location">{{ role.location }}</p>
+                }
+                <p class="role-description">{{ role.description }}</p>
+              </li>
+            }
+          </ul>
+        </li>
+      }
+    </ol>
+  </div>
+</section>
+
+<section class="section alt-bg">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">Formación</p>
+      <h2 class="section-title">Educación</h2>
+      <ul class="education-list">
+        @for (item of education; track item.title) {
+          <li>
+            <strong>{{ item.title }}</strong>
+            <span>{{ item.school }}</span>
+            <span class="education-period">{{ item.period }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+
+    <div>
+      <p class="eyebrow">Idiomas &amp; certificaciones</p>
+      <h2 class="section-title">Extra</h2>
+      <div class="pill-group">
+        @for (language of languages; track language) {
+          <span class="tag">{{ language }}</span>
+        }
+      </div>
+      <ul class="cert-list">
+        @for (cert of certifications; track cert) {
+          <li>{{ cert }}</li>
+        }
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Habilidades</p>
+    <h2 class="section-title">Stack técnico</h2>
+    <div class="skills-grid">
+      @for (group of skills; track group.category) {
+        <div class="skill-group">
+          <h3>{{ group.category }}</h3>
+          <div class="pill-group">
+            @for (item of group.items; track item) {
+              <span class="tag">{{ item }}</span>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="footer-brand">Javier Delgado <span>· Full Stack Developer</span></p>
+
+    <ul class="footer-socials">
+      @for (social of socials; track social.label) {
+        <li>
+          <a [href]="social.href" target="_blank" rel="noopener noreferrer" [attr.aria-label]="social.label">
+            {{ social.label }}
+          </a>
+        </li>
+      }
+    </ul>
+
+    <p class="footer-copy">&copy; {{ year }} Javier Delgado. Hecho con Angular.</p>
+  </div>
+</footer>

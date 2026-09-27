@@ -1,0 +1,26 @@
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Portfolio</p>
+    <h1 class="section-title">Proyectos</h1>
+    <p class="section-lead">
+      Proyectos personales recientes en los que he podido combinar desarrollo full stack con
+      áreas nuevas como IA y análisis de datos.
+    </p>
+
+    <div class="projects-grid">
+      @for (project of projects; track project.slug) {
+        <a class="card project-card" [routerLink]="[project.slug]">
+          <div class="project-icon" [attr.data-icon]="project.accentIcon"></div>
+          <h2>{{ project.name }}</h2>
+          <p>{{ project.tagline }}</p>
+          <div class="project-stack">
+            @for (tech of project.stack; track tech) {
+              <span class="tag">{{ tech }}</span>
+            }
+          </div>
+          <span class="project-link">Ver detalle →</span>
+        </a>
+      }
+    </div>
+  </div>
+</section>

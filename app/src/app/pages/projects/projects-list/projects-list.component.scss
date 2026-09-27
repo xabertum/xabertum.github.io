@@ -1,0 +1,65 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.project-card {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  &:hover {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  p {
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+}
+
+.project-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    font-size: 1.4rem;
+  }
+
+  &[data-icon='eth']::after {
+    content: 'Ξ';
+    color: var(--accent);
+  }
+
+  &[data-icon='music']::after {
+    content: '♫';
+    color: var(--accent);
+  }
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-link {
+  margin-top: auto;
+  font-weight: 600;
+  color: var(--accent);
+}

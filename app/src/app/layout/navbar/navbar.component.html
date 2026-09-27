@@ -1,0 +1,36 @@
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a class="brand" routerLink="/" (click)="closeMenu()">
+      <span class="brand-mark">JD</span>
+      <span class="brand-name">Javier Delgado</span>
+    </a>
+
+    <nav class="nav-links" [class.open]="isMenuOpen()">
+      @for (link of links; track link.path) {
+        <a
+          [routerLink]="link.path"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: link.path === '/' }"
+          (click)="closeMenu()"
+        >
+          {{ link.label }}
+        </a>
+      }
+    </nav>
+
+    <div class="navbar-actions">
+      <app-theme-toggle></app-theme-toggle>
+      <button
+        type="button"
+        class="menu-trigger"
+        (click)="toggleMenu()"
+        [attr.aria-expanded]="isMenuOpen()"
+        aria-label="Abrir menú de navegación"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,66 @@
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Full Stack Developer</p>
+      <h1>Hola, soy Javier Delgado.<br />Construyo software a medida y experimento con IA.</h1>
+      <p class="hero-lead">
+        Más de 6 años de experiencia como Full Stack Developer en proyectos para grandes
+        organismos públicos y privados (DGT, Generalitat de Catalunya, Correos, INE, Junta de
+        Andalucía). Especializado en Angular, Java/Spring Boot y AWS, y explorando en mi tiempo
+        libre el desarrollo de software con IA y análisis de datos.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" routerLink="/proyectos">Ver proyectos</a>
+        <a class="btn btn-ghost" routerLink="/contacto">Contactar</a>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <img src="images/profile.jpg" alt="Retrato de Javier Delgado" width="320" height="320" />
+    </div>
+  </div>
+</section>
+
+<section class="section projects-preview">
+  <div class="container">
+    <p class="eyebrow">Portfolio</p>
+    <h2 class="section-title">Proyectos destacados</h2>
+    <p class="section-lead">Una muestra de mis proyectos personales más recientes.</p>
+
+    <div class="projects-grid">
+      @for (project of featuredProjects; track project.slug) {
+        <a class="card project-card" [routerLink]="['/proyectos', project.slug]">
+          <div class="project-icon" [attr.data-icon]="project.accentIcon"></div>
+          <h3>{{ project.name }}</h3>
+          <p>{{ project.tagline }}</p>
+          <div class="project-stack">
+            @for (tech of project.stack.slice(0, 4); track tech) {
+              <span class="tag">{{ tech }}</span>
+            }
+          </div>
+        </a>
+      }
+    </div>
+
+    <a class="btn btn-ghost" routerLink="/proyectos">Ver todos los proyectos →</a>
+  </div>
+</section>
+
+<section class="section skills-preview">
+  <div class="container">
+    <p class="eyebrow">Habilidades</p>
+    <h2 class="section-title">Con qué trabajo</h2>
+
+    <div class="skills-grid">
+      @for (group of skills; track group.category) {
+        <div class="skill-group">
+          <h3>{{ group.category }}</h3>
+          <ul>
+            @for (item of group.items; track item) {
+              <li>{{ item }}</li>
+            }
+          </ul>
+        </div>
+      }
+    </div>
+  </div>
+</section>

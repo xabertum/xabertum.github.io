@@ -1,0 +1,19 @@
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Contacto</p>
+    <h1 class="section-title">Hablemos</h1>
+    <p class="section-lead">
+      ¿Tienes un proyecto entre manos o simplemente quieres charlar sobre desarrollo o IA?
+      Escríbeme por el canal que prefieras.
+    </p>
+
+    <div class="channels-grid">
+      @for (channel of channels; track channel.label) {
+        <a class="card channel-card" [href]="channel.href" target="_blank" rel="noopener noreferrer">
+          <span class="channel-label">{{ channel.label }}</span>
+          <span class="channel-value">{{ channel.value }}</span>
+        </a>
+      }
+    </div>
+  </div>
+</section>

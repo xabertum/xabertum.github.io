@@ -1,0 +1,53 @@
+@if (project(); as project) {
+  <section class="section detail-hero">
+    <div class="container">
+      <a class="back-link" routerLink="/proyectos">← Todos los proyectos</a>
+      <div class="project-icon" [attr.data-icon]="project.accentIcon"></div>
+      <h1 class="section-title">{{ project.name }}</h1>
+      <p class="section-lead">{{ project.tagline }}</p>
+
+      <div class="project-stack">
+        @for (tech of project.stack; track tech) {
+          <span class="tag">{{ tech }}</span>
+        }
+      </div>
+
+      <div class="detail-actions">
+        <a class="btn btn-primary" [href]="project.repoUrl" target="_blank" rel="noopener noreferrer">
+          Ver repositorio en GitHub
+        </a>
+        @if (project.demoUrl) {
+          <a class="btn btn-ghost" [href]="project.demoUrl" target="_blank" rel="noopener noreferrer">
+            Ver demo
+          </a>
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Descripción</h2>
+      <p class="section-lead full-width">{{ project.description }}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Puntos clave</h2>
+      <ul class="highlights">
+        @for (highlight of project.highlights; track highlight) {
+          <li>{{ highlight }}</li>
+        }
+      </ul>
+    </div>
+  </section>
+} @else {
+  <section class="section">
+    <div class="container not-found">
+      <h1 class="section-title">Proyecto no encontrado</h1>
+      <p class="section-lead">Puede que el enlace sea incorrecto o el proyecto ya no esté disponible.</p>
+      <a class="btn btn-primary" routerLink="/proyectos">Volver a proyectos</a>
+    </div>
+  </section>
+}

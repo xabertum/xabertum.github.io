@@ -1,0 +1,50 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 40px 0;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footer-brand {
+  font-weight: 600;
+
+  span {
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+}
+
+.footer-socials {
+  display: flex;
+  gap: 20px;
+
+  a {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    transition: color var(--transition-fast);
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.footer-copy {
+  color: var(--text-faint);
+  font-size: 0.85rem;
+  width: 100%;
+  order: 3;
+  text-align: center;
+
+  @media (min-width: 640px) {
+    width: auto;
+    order: 0;
+    text-align: left;
+  }
+}
