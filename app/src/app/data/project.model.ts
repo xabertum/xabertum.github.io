@@ -7,5 +7,6 @@ export interface Project {
   stack: string[];
   repoUrl: string;
   demoUrl?: string;
+  demoNote?: string;
   accentIcon: string;
 }

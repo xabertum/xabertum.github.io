@@ -53,6 +53,13 @@
   flex-wrap: wrap;
 }
 
+.demo-note {
+  margin-top: 14px;
+  color: var(--text-faint);
+  font-size: 0.85rem;
+  max-width: 480px;
+}
+
 .alt-bg {
   background: var(--bg-elevated);
   border-top: 1px solid var(--border);

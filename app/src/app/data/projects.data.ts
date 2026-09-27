@@ -42,6 +42,8 @@ export const PROJECTS: Project[] = [
     ],
     stack: ['Python', 'Keras', 'PyTorch', 'openSMILE', 'FastAPI', 'HTML/JS', 'Jupyter'],
     repoUrl: 'https://github.com/xabertum/MusicMoodAnalyzer',
+    demoUrl: 'https://musicmoodanalyzer.onrender.com/',
+    demoNote: 'Alojada en el plan gratuito de Render: si lleva un rato dormida, la primera carga puede tardar ~1 minuto en despertar.',
     accentIcon: 'music',
   },
   {
@@ -65,6 +67,7 @@ export const PROJECTS: Project[] = [
     ],
     stack: ['Angular 19', 'TypeScript', 'PapaParse', 'Chart.js', 'ng2-charts', 'Docker', 'Nginx'],
     repoUrl: 'https://github.com/xabertum/PangeaMusicDashboard',
+    demoUrl: 'https://xabertum.github.io/PangeaMusicDashboard/',
     accentIcon: 'dashboard',
   },
 ];
