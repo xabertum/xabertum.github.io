@@ -107,18 +107,6 @@ export const EXPERIENCE: ExperienceEntry[] = [
     ],
   },
   {
-    company: 'Lionbridge',
-    totalPeriod: '3 meses',
-    roles: [
-      {
-        title: 'Internet Ads Assessor',
-        period: 'julio de 2016 – septiembre de 2016 (3 meses)',
-        description:
-          'Evaluación de la adecuación de los anuncios mostrados en función de la consulta de búsqueda.',
-      },
-    ],
-  },
-  {
     company: 'Proyecto personal (World Wide Web)',
     totalPeriod: '7 meses',
     roles: [

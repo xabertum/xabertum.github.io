@@ -32,6 +32,11 @@
     content: '♫';
     color: var(--accent);
   }
+
+  &[data-icon='dashboard']::after {
+    content: '▦';
+    color: var(--accent);
+  }
 }
 
 .project-stack {

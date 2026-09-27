@@ -44,6 +44,29 @@ export const PROJECTS: Project[] = [
     repoUrl: 'https://github.com/xabertum/MusicMoodAnalyzer',
     accentIcon: 'music',
   },
+  {
+    slug: 'pangea-music-dashboard',
+    name: 'Pangea Music Dashboard',
+    tagline: 'Dashboard interactivo para explorar una colección musical con filtros y gráficos.',
+    description: `Dashboard interactivo construido con Angular 19 (componentes standalone y
+      signals) para explorar la colección de música de Pangea a partir de un CSV enriquecido,
+      parseado directamente en el navegador con PapaParse. Incluye KPIs recalculados en tiempo
+      real según los filtros activos, gráficos con Chart.js (vía ng2-charts) y una tabla paginada
+      y ordenable con el detalle de los álbumes filtrados. Se empaqueta con un Dockerfile
+      multi-stage (build con Node + servido con Nginx) para una imagen ligera de despliegue.`,
+    highlights: [
+      'Angular 19 con componentes standalone y signals para el estado reactivo de filtros y KPIs.',
+      'Parseo del CSV en el navegador con PapaParse, sin necesidad de backend.',
+      'KPIs dinámicos: total de álbumes, artistas, géneros/continentes, países y rango de años.',
+      'Filtros combinables: texto libre, género/continente y país (selección múltiple), y rango de años.',
+      'Gráficos con Chart.js (ng2-charts): álbumes por género/continente, top 15 países y evolución por década.',
+      'Tabla paginada y ordenable con el detalle de los álbumes filtrados.',
+      'Despliegue con Docker multi-stage (Node + Nginx), imagen ligera (~50 MB).',
+    ],
+    stack: ['Angular 19', 'TypeScript', 'PapaParse', 'Chart.js', 'ng2-charts', 'Docker', 'Nginx'],
+    repoUrl: 'https://github.com/xabertum/PangeaMusicDashboard',
+    accentIcon: 'dashboard',
+  },
 ];
 
 export function getProjectBySlug(slug: string): Project | undefined {
