@@ -10,6 +10,7 @@ export const EXPERIENCE: ExperienceEntry[] = [
   {
     company: 'Inetum',
     totalPeriod: '3 años 7 meses',
+    totalStartDate: '2023-03-01',
     roles: [
       {
         title: 'Full Stack Developer',

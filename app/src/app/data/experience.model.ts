@@ -15,6 +15,8 @@ export interface ExperienceRole {
 export interface ExperienceEntry {
   company: string;
   totalPeriod: string;
+  /** ISO start date for a company tenure that is still ongoing. */
+  totalStartDate?: string;
   roles: ExperienceRole[];
 }
 

@@ -7,7 +7,7 @@ import {
   SKILLS,
   SUMMARY,
 } from '../../data/experience.data';
-import { ExperienceRole } from '../../data/experience.model';
+import { ExperienceEntry, ExperienceRole } from '../../data/experience.model';
 import { formatElapsedSince } from '../../core/duration.util';
 
 @Component({
@@ -30,5 +30,12 @@ export class AboutComponent {
       return `${role.period} (${formatElapsedSince(role.startDate)})`;
     }
     return role.period;
+  }
+
+  companyPeriod(entry: ExperienceEntry): string {
+    if (entry.totalStartDate) {
+      return formatElapsedSince(entry.totalStartDate);
+    }
+    return entry.totalPeriod;
   }
 }

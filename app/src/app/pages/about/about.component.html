@@ -19,7 +19,7 @@
         <li class="timeline-item" [class.has-multiple-roles]="entry.roles.length > 1">
           <div class="timeline-header">
             <h3>{{ entry.company }}</h3>
-            <span class="timeline-total">{{ entry.totalPeriod }}</span>
+            <span class="timeline-total">{{ companyPeriod(entry) }}</span>
           </div>
           <ul class="timeline-roles">
             @for (role of entry.roles; track role.title + role.period) {
