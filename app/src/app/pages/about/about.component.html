@@ -22,11 +22,11 @@
             <span class="timeline-total">{{ entry.totalPeriod }}</span>
           </div>
           <ul class="timeline-roles">
-            @for (role of entry.roles; track role.period) {
+            @for (role of entry.roles; track role.title + role.period) {
               <li>
                 <div class="role-heading">
                   <strong>{{ role.title }}</strong>
-                  <span>{{ role.period }}</span>
+                  <span>{{ rolePeriod(role) }}</span>
                 </div>
                 @if (role.location) {
                   <p class="role-location">{{ role.location }}</p>

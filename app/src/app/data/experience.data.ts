@@ -13,7 +13,9 @@ export const EXPERIENCE: ExperienceEntry[] = [
     roles: [
       {
         title: 'Full Stack Developer',
-        period: 'julio de 2025 – Presente (1 año 3 meses)',
+        period: 'julio de 2025 – Presente',
+        startDate: '2025-07-01',
+        ongoing: true,
         description:
           'Operaciones de Full Stack Developer en varias aplicaciones de la DGT (Dirección General de Tráfico).',
       },
