@@ -14,9 +14,15 @@ export const EXPERIENCE: ExperienceEntry[] = [
     roles: [
       {
         title: 'Full Stack Developer',
-        period: 'julio de 2025 – Presente',
-        startDate: '2025-07-01',
+        period: 'octubre de 2026 – Presente',
+        startDate: '2026-10-01',
         ongoing: true,
+        description:
+          'Tareas de Full Stack Developer en varias aplicaciones de Cámara de Comercio.',
+      },
+      {
+        title: 'Full Stack Developer',
+        period: 'julio de 2025 – octubre de 2026 (1 año 4 meses)',
         description:
           'Operaciones de Full Stack Developer en varias aplicaciones de la DGT (Dirección General de Tráfico).',
       },
@@ -183,4 +189,5 @@ export const CERTIFICATIONS = [
   'Illustrator para diseño web',
   'Certificado de Enseñanza Abierta en Abstracción y simbolismo en el arte prehistórico (UNED)',
   'Certificado de asistencia al curso de iniciación al desarrollo con IA (Big School)',
+  'Certificado de asistencia al curso CT - Java EE 8 Front-end Angular 19 (iFormalia, 24 horas)',
 ];
