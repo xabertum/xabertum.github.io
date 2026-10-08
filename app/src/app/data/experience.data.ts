@@ -183,10 +183,6 @@ export const SKILLS: SkillGroup[] = [
 export const LANGUAGES = ['Español (nativo)', 'Inglés (nivel profesional de trabajo)'];
 
 export const CERTIFICATIONS = [
-  'AngularJS avanzado',
-  'AngularJS práctico',
-  'Consumir APIs externas en Angular',
-  'Illustrator para diseño web',
   'Certificado de Enseñanza Abierta en Abstracción y simbolismo en el arte prehistórico (UNED)',
   'Certificado de asistencia al curso de iniciación al desarrollo con IA (Big School)',
   'Certificado de asistencia al curso CT - Java EE 8 Front-end Angular 19 (iFormalia, 24 horas)',
