@@ -17,18 +17,21 @@ export const EXPERIENCE: ExperienceEntry[] = [
         period: 'octubre de 2026 – Presente',
         startDate: '2026-10-01',
         ongoing: true,
+        location: 'Remoto',
         description:
           'Tareas de Full Stack Developer en varias aplicaciones de Cámara de Comercio.',
       },
       {
         title: 'Full Stack Developer',
         period: 'julio de 2025 – octubre de 2026 (1 año 4 meses)',
+        location: 'Remoto',
         description:
           'Operaciones de Full Stack Developer en varias aplicaciones de la DGT (Dirección General de Tráfico).',
       },
       {
         title: 'Full Stack Developer',
         period: 'abril de 2024 – julio de 2025 (1 año 4 meses)',
+        location: 'Remoto',
         description: 'Full Stack Developer para el proyecto SIGMA de la Generalitat de Catalunya.',
       },
       {
